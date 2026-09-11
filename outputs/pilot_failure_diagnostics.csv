@@ -1,0 +1,11 @@
+image_id,true_class,direct_prediction,direct_correct,pipeline_correct,pipeline_animal_detections,outcome
+dromedary_camel_01,dromedary camel,kudu,False,False,1,Failed in both
+dromedary_camel_02,dromedary camel,common ostrich,False,True,2,Recovered by pipeline
+domestic_goat_01,domestic goat,gemsbok,False,False,1,Failed in both
+domestic_goat_02,domestic goat,giraffe,False,False,1,Failed in both
+donkey_01,donkey,domestic sheep,False,False,3,Failed in both
+donkey_02,donkey,gray wolf,False,False,1,Failed in both
+cattle_01,cattle,domestic sheep,False,True,11,Recovered by pipeline
+gerenuk_01,gerenuk,impala,False,False,1,Failed in both
+east_african_oryx_01,east african oryx,grants gazelle,False,False,1,Failed in both
+east_african_oryx_02,east african oryx,gemsbok,False,False,1,Failed in both

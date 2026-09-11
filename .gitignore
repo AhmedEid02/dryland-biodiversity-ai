@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local pilot imagery
+data/pilot_images/
+
+# Model weights / large ML artifacts
+*.onnx
+*.pt
+*.pth
+*.engine
+models/
+.sparrow-engine/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

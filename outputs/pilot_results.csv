@@ -1,0 +1,50 @@
+image_id,method,detector_label,detector_confidence,predicted_class,predicted_confidence,true_class,correct_top1,notes
+dromedary_camel_01,direct_classification,NA,NA,kudu,0.55518997,dromedary camel,FALSE,Full-frame classifier test; true class ranked fourth
+dromedary_camel_01,detector_classifier,animal,0.9721263,kudu,0.9453218,dromedary camel,FALSE,Animal detected successfully but cropped classification incorrect
+dromedary_camel_02,direct_classification,NA,NA,common ostrich,0.8316271,dromedary camel,FALSE,Full-frame classifier incorrectly predicted common ostrich
+dromedary_camel_02,detector_classifier,animal,0.84792423,dromedary camel,0.40528858,dromedary camel,TRUE,Detection 1; cropped animal correctly classified
+dromedary_camel_02,detector_classifier,animal,0.7222588,dromedary camel,0.9359176,dromedary camel,TRUE,Detection 2; cropped animal correctly classified with high confidence
+domestic_goat_01,direct_classification,NA,NA,gemsbok,0.67927104,domestic goat,FALSE,Full-frame classifier incorrectly predicted gemsbok; wild goat ranked second
+domestic_goat_01,detector_classifier,animal,0.94108236,gemsbok,0.70250565,domestic goat,FALSE,Animal detected successfully but cropped classification incorrectly predicted gemsbok
+domestic_goat_02,direct_classification,NA,NA,giraffe,0.27786437,domestic goat,FALSE,Full-frame classification incorrect; domestic goat absent from top five
+domestic_goat_02,detector_classifier,animal,0.43181747,gunthers dikdik,0.3214614,domestic goat,FALSE,Target goats were not distinctly localized; detected region classified as gunthers dikdik; detector-only diagnostic at threshold 0.05 also found person and low-confidence car
+donkey_01,direct_classification,NA,NA,domestic sheep,0.6502348,donkey,FALSE,Full-frame classification incorrect; donkey absent from top five; image contains multiple objects
+donkey_01,detector_classifier,animal,0.8780797,wild horse,0.4039025,donkey,FALSE,Detection 1; donkey crop classified as wild horse
+donkey_01,detector_classifier,animal,0.6084713,cattle,0.87042546,donkey,FALSE,Detection 2; donkey crop classified as cattle
+donkey_01,detector_classifier,animal,0.4927155,cattle,0.64702916,donkey,FALSE,Detection 3; donkey crop classified as cattle
+donkey_02,direct_classification,NA,NA,gray wolf,0.56938255,donkey,FALSE,Full-frame nighttime Somalia image incorrectly classified as gray wolf; donkey absent from top five
+donkey_02,detector_classifier,animal,0.9101375,sable antelope,0.839602,donkey,FALSE,Animal detected strongly but cropped nighttime donkey incorrectly classified as sable antelope
+cattle_01,direct_classification,NA,NA,domestic sheep,0.53110045,cattle,FALSE,Full-frame multi-object cattle image incorrectly classified as domestic sheep; cow ranked third and cattle ranked fourth
+cattle_01,detector_classifier,animal,0.8381134,cattle,0.86938626,cattle,TRUE,Detection 1; correctly classified as cattle
+cattle_01,detector_classifier,animal,0.81959987,cattle,0.87906593,cattle,TRUE,Detection 2; correctly classified as cattle
+cattle_01,detector_classifier,animal,0.81151116,cattle,0.9972995,cattle,TRUE,Detection 3; correctly classified as cattle
+cattle_01,detector_classifier,animal,0.764993,wild goat,0.37732783,cattle,FALSE,Detection 4; incorrectly classified as wild goat
+cattle_01,detector_classifier,animal,0.6837828,cow,0.82314193,cattle,FALSE,Detection 5; model returned cow; retained separately from cattle under strict scoring
+cattle_01,detector_classifier,animal,0.63201046,cattle,0.64499414,cattle,TRUE,Detection 6; correctly classified as cattle
+cattle_01,detector_classifier,animal,0.38166398,cow,0.92569894,cattle,FALSE,Detection 7; model returned cow; retained separately from cattle under strict scoring
+cattle_01,detector_classifier,animal,0.37294224,cow,0.70756215,cattle,FALSE,Detection 8; model returned cow; retained separately from cattle under strict scoring
+cattle_01,detector_classifier,animal,0.2614113,cow,0.91118276,cattle,FALSE,Detection 9; model returned cow; retained separately from cattle under strict scoring
+cattle_01,detector_classifier,animal,0.21167332,gemsbok,0.8018802,cattle,FALSE,Detection 10; incorrectly classified as gemsbok
+cattle_01,detector_classifier,animal,0.20818058,common warthog,0.5611635,cattle,FALSE,Detection 11; incorrectly classified as common warthog
+cattle_02,direct_classification,NA,NA,cattle,0.97518367,cattle,TRUE,Single-cattle image correctly classified with very high confidence
+cattle_02,detector_classifier,animal,0.94504786,cattle,0.62676513,cattle,TRUE,Animal detected strongly and correctly classified as cattle; classifier confidence lower than direct full-frame result
+cheetah_01,direct_classification,NA,NA,cheetah,0.9987895,cheetah,TRUE,Full-frame cheetah image correctly classified with very high confidence
+cheetah_01,detector_classifier,animal,0.58327866,cheetah,0.9998982,cheetah,TRUE,Animal detected at moderate confidence and correctly classified as cheetah with very high confidence
+cheetah_02,direct_classification,NA,NA,cheetah,0.9999292,cheetah,TRUE,Full-frame cheetah image correctly classified with extremely high confidence
+cheetah_02,detector_classifier,animal,0.9447876,cheetah,0.99918264,cheetah,TRUE,Animal detected strongly and correctly classified as cheetah with very high confidence
+gerenuk_01,direct_classification,NA,NA,impala,0.9247597,gerenuk,FALSE,Full-frame gerenuk image incorrectly classified as impala; gerenuk ranked fourth
+gerenuk_01,detector_classifier,animal,0.9223623,impala,0.7729782,gerenuk,FALSE,Animal detected strongly but cropped gerenuk incorrectly classified as impala
+gerenuk_02,direct_classification,NA,NA,gerenuk,0.99931467,gerenuk,TRUE,Full-frame gerenuk image correctly classified with extremely high confidence
+gerenuk_02,detector_classifier,animal,0.9633649,gerenuk,0.95079625,gerenuk,TRUE,Animal detected strongly and correctly classified as gerenuk
+dikdik_01,direct_classification,NA,NA,dikdik,0.98637587,dikdik,TRUE,Full-frame dikdik image correctly classified with very high confidence
+dikdik_01,detector_classifier,animal,0.96698713,dikdik,0.77505773,dikdik,TRUE,Animal detected strongly and correctly classified as dikdik
+dikdik_02,direct_classification,NA,NA,dikdik,0.75743455,dikdik,TRUE,Full-frame dikdik image correctly classified; gunthers dikdik ranked second
+dikdik_02,detector_classifier,animal,0.951954,dikdik,0.98827887,dikdik,TRUE,Animal detected strongly and correctly classified as dikdik with very high confidence
+east_african_oryx_01,direct_classification,NA,NA,grants gazelle,0.52585286,east african oryx,FALSE,Full-frame East African oryx incorrectly classified as grants gazelle; true class ranked fifth
+east_african_oryx_01,detector_classifier,animal,0.9647339,gemsbok,0.9623,east african oryx,FALSE,Animal detected strongly but cropped East African oryx incorrectly classified as gemsbok
+east_african_oryx_02,direct_classification,NA,NA,gemsbok,0.9585211,east african oryx,FALSE,Full-frame East African oryx incorrectly classified as gemsbok; true class ranked second
+east_african_oryx_02,detector_classifier,animal,0.9356464,gemsbok,0.8903354,east african oryx,FALSE,Animal detected strongly but cropped East African oryx incorrectly classified as gemsbok
+striped_hyena_01,direct_classification,NA,NA,striped hyena,0.99429446,striped hyena,TRUE,Full-frame striped hyena correctly classified with very high confidence
+striped_hyena_01,detector_classifier,animal,0.97263515,striped hyena,0.9338456,striped hyena,TRUE,Animal detected strongly and correctly classified as striped hyena
+striped_hyena_02,direct_classification,NA,NA,striped hyena,0.9935912,striped hyena,TRUE,Out-of-region stress-test image correctly classified as striped hyena with very high confidence
+striped_hyena_02,detector_classifier,animal,0.9545027,striped hyena,0.9512918,striped hyena,TRUE,Animal detected strongly and correctly classified as striped hyena in out-of-region stress test
